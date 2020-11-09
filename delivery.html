@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <title>CHECKOUT</title>
+   <style type="text/css">
+       .button:hover{
+  
+color: darkgrey;
+
+       }
+	  
+body {
+  background-color: #E6E6FA;
+}
+
+   </style>
+</head>
+<body style="background-image: url(back.jpg); ">
+
+<div class="menu">
+<nav>
+<ul>
+<li>
+<a id="home" href="index.html">HOME</a>
+</li>
+</ul>
+</nav>
+</div>
+
+   <p style="color: white; margin-left: 550px; font-size: 30px; font-weight: bold;">Enter Credit Card Info</p>
+   <form action="order.php" method="post">
+       <fieldset style="float: left; background-color: lightgrey; margin-left: 400px;px; padding: 80PX; height: 200px; font-weight: bold;">
+
+           <tr><td>
+           <table style="font-size: 20px;">
+               <TR><TD>
+           <label style="margin-right: 10px;">Card Owner:</label><input type="text" name="name" placeholder="Enter Name" required="#"></td>
+          
+           <td>   <label style="margin-right: 10px; margin-left: 10px;">Please Enter your Card cvv:</label><input type="text" name="cvv" placeholder="Enter Card CVV" required="#">
+               </td></TR>
+               <tr><td><br><br>
+               <label style="margin-right: 10px;">Card Number:</label>
+               <input type="text" name="cardNo" pattern="[0-9]{13,16}" placeholder="Enter Card Number" required="#" style="width: 340px; position: absolute;">
+           </td>   </tr>
+					
+</table>
+       </fieldset>
+   </form>
+
+
+
+<table border="1">
+<caption style="color:orange;">Some useful information about foods and prices</caption>
+<colgroup>
+<col><col align="char" char=".">
+<thead>
+<tr><th>Food</th><th> Average Price</th></tr>
+<tbody>
+<tr><td style= "color:orange;">Pizza</td><td>$14.50</td></tr>
+<tr><td style= "color:orange;" >Salad</td><td>$10.98</td></tr>
+<tr><td style= "color:orange;">Pasta</td><td>$11.59</td></tr>
+</tbody>
+</table>
+<br><br>
+					<div>
+					<button id="menuBtn"><a id="href" href="image4.jpg">CHECKOUT</a></button>
+					</div>
+
+
+
+
+
+
+</body>
+</html>

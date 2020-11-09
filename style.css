@@ -1,0 +1,91 @@
+*{
+   padding: 0;
+   margin: 0;
+}
+
+#introImg
+{
+   width: 90%;
+   height: 350px;
+   display: inline;
+   position: static;
+   margin-left: 5%;
+   margin-right: 10%;
+   
+}
+#menuBtn
+{
+   display: inline;
+   color: white;
+   background-color: green;
+   width: 100px;
+   height: 60px;
+   margin-left: 40%;
+position: static;
+}
+#href
+{
+   color: white;
+   font-size: 20px;
+   font-weight: bold;
+}
+
+#welcome{
+   color: green;
+   margin-left: 40%;
+   margin-right:40%
+}
+
+#introName{
+   color: green;
+   margin-left: 30%;
+  
+}
+#FirstP
+{
+   margin-left: 25%;
+   font-size: 20px;
+   font-weight: bold;
+}
+#thirdP
+{
+   margin-left: 25%;
+}
+#lastP
+{
+   margin-left: 35%;
+}
+#fourthP
+{
+   margin-left: 25%;
+}
+p{
+
+margin-left: 25%;
+font-size: 20px;
+}
+
+.menu{
+
+   width: 100%;
+   background-color: pink;
+   height: 50px;
+}
+
+div nav ul li a{
+   color: white;
+   margin-left: 50%;
+   font-weight: bold;
+   display: inline;
+   position: absolute;
+}
+#home
+{
+   margin-left: 40%;
+   margin-top: 20px;
+}
+#delivery
+{
+   margin-left: 50%;
+   margin-bottom: 20px;
+}

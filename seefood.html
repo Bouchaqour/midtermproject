@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> See our food </title>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 10px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+</style>
+</head>
+<body>
+
+<div class="menu">
+<nav>
+<ul>
+<li>
+<a id="home" href="index.html">HOME</a>
+</li>
+<li>
+<a id="delivery" href="delivery.html">DELIVERY</a>
+</li>
+
+</ul>
+</nav>
+</div>
+
+<h2>Our Food Images & information: </h2>
+<p>We serve the best food ever.:</p>
+
+<div class="row">
+  <div class="column">
+    <img src="image1.jpg" alt="Snow" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="image2.jpg" alt="Forest" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="image3.jpg" alt="Mountains" style="width:100%">
+  </div>
+</div>
+
+
+
+<table border="2" width="100%">
+<thead>
+<tr>
+<td colspan="4">Pizza: Our pizza is consisting of a flattened disk of bread dough topped with some combination of olive oil, oregano, tomato, olives, mozzarella or other cheese, and many other ingredients, baked quickly—usually, in a commercial setting, using a wood-fired oven heated to a very high temperature—and served hot. In future we are planning to add more type of pizza. </td>
+</tr>
+</thead>
+<tfoot>
+<tr>
+<td colspan="4">Our salad is a dish consisting of pieces of food in a mixture, with at least one raw ingredient. It is often dressed, and is typically served at room temperature or chilled, though some (such as south German potato salad, or chicken salad) can be served warm</td>
+</tr>
+<tr>
+<td colspan="4">Our Pastas are divided into two broad categories: dried (pasta secca) and fresh (pasta fresca). Most dried pasta is produced commercially via an extrusion process, although it can be produced at home. Fresh pasta is traditionally produced by hand, sometimes with the aid of simple machines.[3] Fresh pastas available in grocery stores are produced commercially by large-scale machines</td>
+</tr>
+
+
+</tfoot>
+<tbody>
+<tr>
+<td>1 - Arabian Pizza & tomato --- $15.00</td>
+<td>2 - Pizza in Coscos style --- $14.70</td>
+<td>3 - Pizza for kids --- $10.00</td>
+<td>4 - Diet Pizza --- $11.99</td>
+</tbody>
+</table>
+</tr>
+
+
+<p> Learn more about our locations: </p>
+<iframe id="inlineFrameExample"
+    title="Check our locations"
+    width="300"
+    height="200"
+    src="https://www.openstreetmap.org/export/embed.html?bbox=-0.004017949104309083%2C51.47612752641776%2C0.00030577182769775396%2C51.478569861898606&layer=mapnik">
+</iframe>
+
+
+
+
+
+
+
+</body>
+</html>
